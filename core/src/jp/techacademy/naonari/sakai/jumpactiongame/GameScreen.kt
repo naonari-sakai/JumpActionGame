@@ -198,7 +198,7 @@ class GameScreen(private val mGame: JumpActionGame): ScreenAdapter() {
             y -= mRandom.nextFloat() * (maxJumpHeight / 3)
         }
 
-        //Playerを配置
+        //Playerを配置 
         mPlayer = Player(playerTexture,0,0,72,72)
         mPlayer.setPosition(WORLD_WIDTH / 2 - mPlayer.width /2 ,Step.STEP_HEIGHT)
 
